@@ -15,8 +15,7 @@ function showResponse(apiResponse) {
 
 function getJoke() {
   const apiKey = "o763ft69073f5418a00d1de2884aa32b";
-  const now = new Date().getTime();
-  const context = `You're a witty dad bot with a love for surprising jokes. Time: ${now}.`;
+  const context = `You're a humorous AI with a vast joke library. Always tell a unique, previously untold joke each time you're prompted.`;
   const prompt =
     "Give me a brand new, clean dad joke that's original. Randomize the theme of the joke.";
 
