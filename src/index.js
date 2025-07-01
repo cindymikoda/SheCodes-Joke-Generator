@@ -8,5 +8,5 @@ let context =
 let prompt = "Generate a joke about learning to code.";
 let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-console.log("processing...");
+//________________________📦 AXIOS RESPONSE
 axios.get(apiUrl).then(ShowResponse);
