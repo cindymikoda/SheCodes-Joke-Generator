@@ -15,9 +15,9 @@ function showResponse(apiResponse) {
 
 function getJoke() {
   const apiKey = "o763ft69073f5418a00d1de2884aa32b";
-  const context = `You're a humorous AI with a vast joke library. Always tell a unique, previously untold joke each time you're prompted.`;
+  const context = `You're a humorous AI with a vast silly joke library.`;
   const prompt =
-    "Give me a brand new, clean dad joke that's original. Randomize the theme of the joke.";
+    "Give me a brand new joke about tech. Always tell a unique, previously untold, and differ the theme of the jokes each time you're prompted.";
 
   const apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
