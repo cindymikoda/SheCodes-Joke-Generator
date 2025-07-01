@@ -1,13 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <title>SheCodes</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!---------------------- ⚙️ AXIOS ---------------------->
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <!---------------------- 💽 INDEX JAVASCRIPT ---------------------->
-    <script src="src/index.js"></script>
-    <title>Joke Generator</title>
+    <link href="src/styles.css" rel="stylesheet" type="text/css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="container">
+      <div class="title-bar">
+        Joke Generator - Windows XP
+        <div class="window-controls">
+          <span>—</span>
+          <span>◻</span>
+          <span>✕</span>
+        </div>
+      </div>
+
+      <div id="joke">Click to get a joke.</div>
+      <button id="joke-button" type="button">Get a Dad Joke</button>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
 </html>

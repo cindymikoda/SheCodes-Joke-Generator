@@ -1,0 +1,88 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Tahoma", sans-serif;
+  background-image: url("https://external-preview.redd.it/r6g38aXSaQWtd1KxwJbQ-Fs5jtSVDxX3wtLHJEdqixw.jpg?width=1080&crop=smart&auto=webp&s=87a2c94cb3e1561e2b6abd467ea68d81b9901720");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ece9d8;
+  border: 2px solid #000080;
+  box-shadow: 2px 2px 0 #808080, -1px -1px 0 #ffffff;
+  width: 100%;
+  min-width: 500px;
+  max-width: 700px;
+  min-height: 150px;
+  max-height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-radius: 4px;
+  text-align: left;
+  position: relative;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title-bar {
+  background: linear-gradient(to right, #000080, #4169e1);
+  color: white;
+  padding: 4px 10px;
+  font-weight: bold;
+  font-size: 11px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000080;
+  margin: 0;
+}
+
+.window-controls {
+  display: flex;
+  gap: 4px;
+  font-size: 11px;
+}
+
+.window-controls span {
+  background-color: #d4d0c8;
+  color: black;
+  border: 1px solid #808080;
+  padding: 0 5px;
+  font-weight: bold;
+  cursor: default;
+}
+
+#joke {
+  padding: 20px;
+  line-height: 1.4;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  flex: 1;
+}
+
+button {
+  font-family: "Tahoma", sans-serif;
+  font-size: 12px;
+  padding: 4px 12px;
+  background-color: #ece9d8;
+  border: 2px outset #ffffff;
+  box-shadow: inset -1px -1px 0 #808080, inset 1px 1px 0 #ffffff;
+  color: black;
+  cursor: pointer;
+  margin: 10px auto 15px;
+  display: block;
+}
+
+button:active {
+  border: 2px inset #808080;
+  box-shadow: inset 1px 1px 0 #808080, inset -1px -1px 0 #ffffff;
+}
